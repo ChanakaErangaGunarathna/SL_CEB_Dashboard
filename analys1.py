@@ -13,8 +13,8 @@ import streamlit as st
 
 st.title('CEB daily Power')
 
-# df_by_date=pd.read_csv('CEB-table_energy_data_new.csv')
-# st.dataframe(df_by_date,1200,400)
+df_by_date=pd.read_csv('CEB-table_energy_data_new.csv')
+st.dataframe(df_by_date,1200,400)
 
 # df_by_date['date']=pd.to_datetime(df_by_date['date'])
 # df_by_date['Hydro']=df_by_date['Laxapana Hydro Complex']+df_by_date['Mahaweli Hydro Complex']+df_by_date['Samanala Hydro Complex']+df_by_date['SPP Minihydro 2']
