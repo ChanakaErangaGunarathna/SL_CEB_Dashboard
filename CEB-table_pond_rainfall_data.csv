@@ -206,12 +206,318 @@
 204,Bowatenna,248.7,6.2,03/22/2023
 205,Kukule,Not available,32.0,03/22/2023
 206,Upper Koth.,1193.3,0.0,03/22/2023
-1,Inginiyagala,71.7,0.0,03/22/2023
-2,Norton,Not available,30.0,03/22/2023
-3,Canyon,Not available,5.6,03/22/2023
-4,Laxapana,Not available,51.6,03/22/2023
-5,Ukuwela,440.4,20.8,03/22/2023
-6,Rantambe,151.2,21.0,03/22/2023
-7,Bowatenna,248.7,6.2,03/22/2023
-8,Kukule,Not available,32.0,03/22/2023
-9,Upper Koth.,1193.3,0.0,03/22/2023
+207,Inginiyagala,71.7,0.0,03/22/2023
+208,Norton,Not available,30.0,03/22/2023
+209,Canyon,Not available,5.6,03/22/2023
+210,Laxapana,Not available,51.6,03/22/2023
+211,Ukuwela,440.4,20.8,03/22/2023
+212,Rantambe,151.2,21.0,03/22/2023
+213,Bowatenna,248.7,6.2,03/22/2023
+214,Kukule,Not available,32.0,03/22/2023
+215,Upper Koth.,1193.3,0.0,03/22/2023
+216,Inginiyagala,71.7,0.0,03/23/2023
+217,Norton,Not available,0.0,03/23/2023
+218,Canyon,Not available,0.0,03/23/2023
+219,Laxapana,Not available,0.0,03/23/2023
+220,Ukuwela,440.6,69.4,03/23/2023
+221,Rantambe,151.1,0.0,03/23/2023
+222,Bowatenna,249.2,4.6,03/23/2023
+223,Kukule,Not available,0.0,03/23/2023
+224,Upper Koth.,1193.3,0.0,03/23/2023
+225,Inginiyagala,71.8,0.0,03/24/2023
+226,Norton,Not available,2.9,03/24/2023
+227,Canyon,Not available,2.2,03/24/2023
+228,Laxapana,Not available,4.0,03/24/2023
+229,Ukuwela,440.5,11.9,03/24/2023
+230,Rantambe,150.7,12.0,03/24/2023
+231,Bowatenna,249.1,2.7,03/24/2023
+232,Kukule,205.5,12.0,03/24/2023
+233,Upper Koth.,1193.4,9.5,03/24/2023
+234,Inginiyagala,71.8,0.0,03/25/2023
+235,Norton,Not available,0.3,03/25/2023
+236,Canyon,Not available,6.2,03/25/2023
+237,Laxapana,Not available,0.0,03/25/2023
+238,Ukuwela,440.2,12.8,03/25/2023
+239,Rantambe,150.6,0.0,03/25/2023
+240,Bowatenna,248.9,3.4,03/25/2023
+241,Kukule,Not available,31.0,03/25/2023
+242,Upper Koth.,1193.2,0.0,03/25/2023
+243,Inginiyagala,71.8,1.5,03/26/2023
+244,Norton,Not available,1.3,03/26/2023
+245,Canyon,Not available,4.6,03/26/2023
+246,Laxapana,Not available,11.1,03/26/2023
+247,Ukuwela,440.5,0.0,03/26/2023
+248,Rantambe,150.9,0.0,03/26/2023
+249,Bowatenna,248.6,0.0,03/26/2023
+250,Kukule,Not available,5.0,03/26/2023
+251,Upper Koth.,1192.9,0.0,03/26/2023
+252,Inginiyagala,71.8,0.0,03/27/2023
+253,Norton,Not available,5.0,03/27/2023
+254,Canyon,Not available,0.2,03/27/2023
+255,Laxapana,Not available,0.0,03/27/2023
+256,Ukuwela,440.3,0.0,03/27/2023
+257,Rantambe,151.4,0.0,03/27/2023
+258,Bowatenna,248.6,0.0,03/27/2023
+259,Kukule,Not available,68.0,03/27/2023
+260,Upper Koth.,1192.1,0.0,03/27/2023
+261,Inginiyagala,71.8,0.0,03/28/2023
+262,Norton,Not available,0.0,03/28/2023
+263,Canyon,Not available,0.0,03/28/2023
+264,Laxapana,Not available,0.5,03/28/2023
+265,Ukuwela,440.6,0.0,03/28/2023
+266,Rantambe,151.5,0.0,03/28/2023
+267,Bowatenna,248.4,0.0,03/28/2023
+268,Kukule,Not available,0.0,03/28/2023
+269,Upper Koth.,1191.4,0.0,03/28/2023
+270,Inginiyagala,71.9,0.0,03/29/2023
+271,Norton,Not available,4.1,03/29/2023
+272,Canyon,Not available,0.3,03/29/2023
+273,Laxapana,Not available,24.6,03/29/2023
+274,Ukuwela,440.3,0.0,03/29/2023
+275,Rantambe,151.0,0.0,03/29/2023
+276,Bowatenna,248.5,0.0,03/29/2023
+277,Kukule,Not available,13.0,03/29/2023
+278,Upper Koth.,1191.7,0.0,03/29/2023
+279,Inginiyagala,71.9,0.0,03/30/2023
+280,Norton,Not available,0.0,03/30/2023
+281,Canyon,Not available,0.0,03/30/2023
+282,Laxapana,Not available,9.2,03/30/2023
+283,Ukuwela,440.3,0.0,03/30/2023
+284,Rantambe,151.4,0.0,03/30/2023
+285,Bowatenna,248.5,0.0,03/30/2023
+286,Kukule,Not available,14.0,03/30/2023
+287,Upper Koth.,1191.9,0.0,03/30/2023
+288,Inginiyagala,71.9,0.0,03/31/2023
+289,Norton,Not available,0.0,03/31/2023
+290,Canyon,Not available,6.6,03/31/2023
+291,Laxapana,Not available,0.0,03/31/2023
+292,Ukuwela,440.4,0.0,03/31/2023
+293,Rantambe,150.9,0.0,03/31/2023
+294,Bowatenna,248.4,0.0,03/31/2023
+295,Kukule,Not available,70.0,03/31/2023
+296,Upper Koth.,1191.9,5.2,03/31/2023
+297,Inginiyagala,71.7,0.0,04/02/2023
+298,Norton,Not available,1.2,04/02/2023
+299,Canyon,Not available,1.1,04/02/2023
+300,Laxapana,Not available,6.6,04/02/2023
+301,Ukuwela,440.2,0.0,04/02/2023
+302,Rantambe,149.8,0.0,04/02/2023
+303,Bowatenna,248.6,0.0,04/02/2023
+304,Kukule,205.6,2.0,04/02/2023
+305,Upper Koth.,1192.8,22.0,04/02/2023
+306,Inginiyagala,71.6,0.0,04/04/2023
+307,Norton,Not available,75.2,04/04/2023
+308,Canyon,Not available,24.5,04/04/2023
+309,Laxapana,Not available,25.6,04/04/2023
+310,Ukuwela,440.4,4.7,04/04/2023
+311,Rantambe,150.7,0.0,04/04/2023
+312,Bowatenna,248.7,17.1,04/04/2023
+313,Kukule,205.2,3.0,04/04/2023
+314,Upper Koth.,1192.9,3.3,04/04/2023
+315,Inginiyagala,71.5,0.0,04/05/2023
+316,Norton,Not available,10.0,04/05/2023
+317,Canyon,Not available,7.6,04/05/2023
+318,Laxapana,Not available,3.2,04/05/2023
+319,Ukuwela,440.6,12.8,04/05/2023
+320,Rantambe,150.5,6.5,04/05/2023
+321,Bowatenna,248.7,9.7,04/05/2023
+322,Kukule,204.8,10.0,04/05/2023
+323,Upper Koth.,1191.9,35.5,04/05/2023
+324,Inginiyagala,71.4,0.0,04/06/2023
+325,Norton,Not available,0.0,04/06/2023
+326,Canyon,Not available,2.0,04/06/2023
+327,Laxapana,Not available,0.0,04/06/2023
+328,Ukuwela,440.6,0.0,04/06/2023
+329,Rantambe,150.2,0.0,04/06/2023
+330,Bowatenna,249.0,0.8,04/06/2023
+331,Kukule,204.5,22.0,04/06/2023
+332,Upper Koth.,1192.2,8.2,04/06/2023
+333,Inginiyagala,71.3,0.0,04/07/2023
+334,Norton,Not available,0.0,04/07/2023
+335,Canyon,Not available,0.0,04/07/2023
+336,Laxapana,Not available,0.0,04/07/2023
+337,Ukuwela,440.5,0.0,04/07/2023
+338,Rantambe,150.9,0.0,04/07/2023
+339,Bowatenna,248.5,0.0,04/07/2023
+340,Kukule,204.7,18.0,04/07/2023
+341,Upper Koth.,1191.8,0.0,04/07/2023
+342,Inginiyagala,71.3,0.0,04/08/2023
+343,Norton,Not available,0.0,04/08/2023
+344,Canyon,Not available,0.0,04/08/2023
+345,Laxapana,Not available,0.0,04/08/2023
+346,Ukuwela,440.6,0.0,04/08/2023
+347,Rantambe,150.8,0.0,04/08/2023
+348,Bowatenna,248.6,0.0,04/08/2023
+349,Kukule,204.9,58.0,04/08/2023
+350,Upper Koth.,1191.7,0.0,04/08/2023
+351,Inginiyagala,71.2,0.5,04/09/2023
+352,Norton,Not available,1.5,04/09/2023
+353,Canyon,Not available,17.5,04/09/2023
+354,Laxapana,Not available,8.2,04/09/2023
+355,Ukuwela,440.6,9.7,04/09/2023
+356,Rantambe,150.9,1.0,04/09/2023
+357,Bowatenna,248.7,10.8,04/09/2023
+358,Kukule,204.9,8.0,04/09/2023
+359,Upper Koth.,1192.6,23.3,04/09/2023
+360,Inginiyagala,71.1,0.0,04/10/2023
+361,Norton,Not available,0.0,04/10/2023
+362,Canyon,Not available,0.4,04/10/2023
+363,Laxapana,Not available,0.0,04/10/2023
+364,Ukuwela,440.3,0.0,04/10/2023
+365,Rantambe,150.2,0.0,04/10/2023
+366,Bowatenna,248.7,0.0,04/10/2023
+367,Kukule,205.0,0.0,04/10/2023
+368,Upper Koth.,1192.3,0.0,04/10/2023
+369,Inginiyagala,71.1,0.0,04/10/2023
+370,Norton,Not available,0.0,04/10/2023
+371,Canyon,Not available,0.4,04/10/2023
+372,Laxapana,Not available,0.0,04/10/2023
+373,Ukuwela,440.3,0.0,04/10/2023
+374,Rantambe,150.2,0.0,04/10/2023
+375,Bowatenna,248.7,0.0,04/10/2023
+376,Kukule,205.0,0.0,04/10/2023
+377,Upper Koth.,1192.3,0.0,04/10/2023
+378,Inginiyagala,71.0,0.0,04/11/2023
+379,Norton,Not available,0.0,04/11/2023
+380,Canyon,Not available,0.0,04/11/2023
+381,Laxapana,Not available,0.0,04/11/2023
+382,Ukuwela,440.3,0.0,04/11/2023
+383,Rantambe,151.0,4.9,04/11/2023
+384,Bowatenna,248.8,0.0,04/11/2023
+385,Kukule,204.8,0.0,04/11/2023
+386,Upper Koth.,1192.0,0.0,04/11/2023
+387,Inginiyagala,70.9,0.0,04/12/2023
+388,Norton,Not available,0.0,04/12/2023
+389,Canyon,Not available,0.0,04/12/2023
+390,Laxapana,Not available,0.0,04/12/2023
+391,Ukuwela,439.9,0.0,04/12/2023
+392,Rantambe,150.2,0.0,04/12/2023
+393,Bowatenna,248.9,0.0,04/12/2023
+394,Kukule,204.9,0.0,04/12/2023
+395,Upper Koth.,1192.3,0.0,04/12/2023
+396,Inginiyagala,70.8,0.0,04/13/2023
+397,Norton,Not available,0.0,04/13/2023
+398,Canyon,Not available,0.0,04/13/2023
+399,Laxapana,Not available,0.0,04/13/2023
+400,Ukuwela,440.4,0.0,04/13/2023
+401,Rantambe,150.2,0.0,04/13/2023
+402,Bowatenna,249.5,0.0,04/13/2023
+403,Kukule,204.9,0.0,04/13/2023
+404,Upper Koth.,1191.9,0.0,04/13/2023
+405,Inginiyagala,70.7,0.0,04/14/2023
+406,Norton,Not available,0.0,04/14/2023
+407,Canyon,Not available,0.0,04/14/2023
+408,Laxapana,Not available,0.0,04/14/2023
+409,Ukuwela,440.6,0.0,04/14/2023
+410,Rantambe,150.5,0.0,04/14/2023
+411,Bowatenna,249.1,0.0,04/14/2023
+412,Kukule,204.7,2.0,04/14/2023
+413,Upper Koth.,1191.4,0.0,04/14/2023
+414,Inginiyagala,70.6,0.0,04/16/2023
+415,Norton,Not available,0.0,04/16/2023
+416,Canyon,Not available,9.7,04/16/2023
+417,Laxapana,Not available,0.0,04/16/2023
+418,Ukuwela,440.1,3.8,04/16/2023
+419,Rantambe,150.4,0.0,04/16/2023
+420,Bowatenna,248.2,0.0,04/16/2023
+421,Kukule,204.9,26.0,04/16/2023
+422,Upper Koth.,1192.5,0.0,04/16/2023
+423,Inginiyagala,70.5,0.0,04/17/2023
+424,Norton,Not available,28.9,04/17/2023
+425,Canyon,Not available,9.3,04/17/2023
+426,Laxapana,Not available,64.0,04/17/2023
+427,Ukuwela,440.6,7.6,04/17/2023
+428,Rantambe,150.2,0.5,04/17/2023
+429,Bowatenna,248.3,7.3,04/17/2023
+430,Kukule,204.8,14.0,04/17/2023
+431,Upper Koth.,1193.1,11.3,04/17/2023
+432,Inginiyagala,70.4,0.0,04/18/2023
+433,Norton,Not available,15.0,04/18/2023
+434,Canyon,Not available,33.0,04/18/2023
+435,Laxapana,Not available,15.4,04/18/2023
+436,Ukuwela,Not available,0.0,04/18/2023
+437,Rantambe,150.9,0.0,04/18/2023
+438,Bowatenna,248.2,0.0,04/18/2023
+439,Kukule,204.9,20.0,04/18/2023
+440,Upper Koth.,1192.2,5.2,04/18/2023
+441,Inginiyagala,70.3,0.0,04/19/2023
+442,Norton,Not available,5.4,04/19/2023
+443,Canyon,Not available,9.9,04/19/2023
+444,Laxapana,Not available,1.0,04/19/2023
+445,Ukuwela,440.8,0.0,04/19/2023
+446,Rantambe,150.6,0.0,04/19/2023
+447,Bowatenna,248.4,0.0,04/19/2023
+448,Kukule,205.3,0.0,04/19/2023
+449,Upper Koth.,1193.0,11.9,04/19/2023
+450,Inginiyagala,70.2,0.0,04/20/2023
+451,Norton,Not available,0.0,04/20/2023
+452,Canyon,Not available,0.0,04/20/2023
+453,Laxapana,Not available,0.0,04/20/2023
+454,Ukuwela,Not available,0.0,04/20/2023
+455,Rantambe,150.2,0.0,04/20/2023
+456,Bowatenna,248.5,0.0,04/20/2023
+457,Kukule,205.1,6.0,04/20/2023
+458,Upper Koth.,1192.8,0.0,04/20/2023
+459,Inginiyagala,70.1,0.0,04/21/2023
+460,Norton,Not available,9.2,04/21/2023
+461,Canyon,Not available,9.7,04/21/2023
+462,Laxapana,Not available,0.8,04/21/2023
+463,Ukuwela,440.6,26.5,04/21/2023
+464,Rantambe,150.0,1.5,04/21/2023
+465,Bowatenna,248.6,14.5,04/21/2023
+466,Kukule,204.9,2.0,04/21/2023
+467,Upper Koth.,1192.1,24.0,04/21/2023
+468,Inginiyagala,70.0,0.0,04/22/2023
+469,Norton,Not available,5.5,04/22/2023
+470,Canyon,Not available,5.2,04/22/2023
+471,Laxapana,Not available,38.6,04/22/2023
+472,Ukuwela,440.6,37.2,04/22/2023
+473,Rantambe,150.5,0.0,04/22/2023
+474,Bowatenna,248.9,0.0,04/22/2023
+475,Kukule,205.3,0.0,04/22/2023
+476,Upper Koth.,1193.1,9.0,04/22/2023
+477,Inginiyagala,69.9,23.2,04/23/2023
+478,Norton,Not available,2.8,04/23/2023
+479,Canyon,Not available,23.4,04/23/2023
+480,Laxapana,Not available,11.1,04/23/2023
+481,Ukuwela,440.7,50.5,04/23/2023
+482,Rantambe,149.6,0.0,04/23/2023
+483,Bowatenna,249.2,52.3,04/23/2023
+484,Kukule,204.9,0.0,04/23/2023
+485,Upper Koth.,1192.5,3.7,04/23/2023
+486,Inginiyagala,69.8,0.0,04/24/2023
+487,Norton,Not available,3.8,04/24/2023
+488,Canyon,Not available,8.8,04/24/2023
+489,Laxapana,Not available,12.0,04/24/2023
+490,Ukuwela,440.4,0.0,04/24/2023
+491,Rantambe,151.4,0.0,04/24/2023
+492,Bowatenna,249.5,0.0,04/24/2023
+493,Kukule,205.2,4.0,04/24/2023
+494,Upper Koth.,1193.1,34.4,04/24/2023
+495,Inginiyagala,69.8,0.0,04/25/2023
+496,Norton,Not available,52.0,04/25/2023
+497,Canyon,Not available,14.0,04/25/2023
+498,Laxapana,Not available,14.1,04/25/2023
+499,Ukuwela,Not available,3.5,04/25/2023
+500,Rantambe,150.2,1.0,04/25/2023
+501,Bowatenna,249.8,1.0,04/25/2023
+502,Kukule,205.0,4.0,04/25/2023
+503,Upper Koth.,1192.5,6.0,04/25/2023
+504,Inginiyagala,69.8,51.6,04/26/2023
+505,Norton,Not available,53.0,04/26/2023
+506,Canyon,Not available,32.0,04/26/2023
+507,Laxapana,Not available,33.8,04/26/2023
+508,Ukuwela,440.2,0.0,04/26/2023
+509,Rantambe,150.5,0.0,04/26/2023
+510,Bowatenna,249.7,0.0,04/26/2023
+511,Kukule,205.5,5.0,04/26/2023
+512,Upper Koth.,1193.3,34.5,04/26/2023
+1,Inginiyagala,69.7,2.5,04/27/2023
+2,Norton,Not available,14.0,04/27/2023
+3,Canyon,Not available,20.8,04/27/2023
+4,Laxapana,Not available,12.0,04/27/2023
+5,Ukuwela,440.3,6.2,04/27/2023
+6,Rantambe,151.0,29.5,04/27/2023
+7,Bowatenna,249.7,0.0,04/27/2023
+8,Kukule,204.5,4.0,04/27/2023
+9,Upper Koth.,1192.5,7.3,04/27/2023
