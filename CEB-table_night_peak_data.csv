@@ -753,16 +753,81 @@
 751,SPP Minihydro,24.8,0.0,04/26/2023
 752,Capacitors,0.0,71.0,04/26/2023
 753,Total,1886.8,414.8,04/26/2023
-1,Laxapana Hydro Complex,172.5,17.5,04/27/2023
-2,Mahaweli Hydro Complex,111.5,17.4,04/27/2023
-3,Samanala Hydro Complex,81.8,5.2,04/27/2023
-4,CEB Thermal Coal,790.5,112.0,04/27/2023
-5,CEB Thermal Oil,477.4,116.3,04/27/2023
-6,IPP Thermal Oil,279.6,-4.7,04/27/2023
-7,CEB Wind,12.0,3.6,04/27/2023
-8,SPP Wind,0.3,3.6,04/27/2023
-9,CEB Small Hydro,9.6,0.0,04/27/2023
-10,SPP Biomass,4.8,3.8,04/27/2023
-11,SPP Minihydro,24.6,0.0,04/27/2023
-12,Capacitors,0.0,135.5,04/27/2023
-13,Total,1964.5,410.1,04/27/2023
+754,Laxapana Hydro Complex,172.5,17.5,04/27/2023
+755,Mahaweli Hydro Complex,111.5,17.4,04/27/2023
+756,Samanala Hydro Complex,81.8,5.2,04/27/2023
+757,CEB Thermal Coal,790.5,112.0,04/27/2023
+758,CEB Thermal Oil,477.4,116.3,04/27/2023
+759,IPP Thermal Oil,279.6,-4.7,04/27/2023
+760,CEB Wind,12.0,3.6,04/27/2023
+761,SPP Wind,0.3,3.6,04/27/2023
+762,CEB Small Hydro,9.6,0.0,04/27/2023
+763,SPP Biomass,4.8,3.8,04/27/2023
+764,SPP Minihydro,24.6,0.0,04/27/2023
+765,Capacitors,0.0,135.5,04/27/2023
+766,Total,1964.5,410.1,04/27/2023
+767,Laxapana Hydro Complex,156.2,40.6,04/28/2023
+768,Mahaweli Hydro Complex,291.5,38.0,04/28/2023
+769,Samanala Hydro Complex,137.2,16.1,04/28/2023
+770,CEB Thermal Coal,811.6,117.4,04/28/2023
+771,CEB Thermal Oil,489.7,120.9,04/28/2023
+772,IPP Thermal Oil,274.8,35.8,04/28/2023
+773,CEB Wind,0.0,3.4,04/28/2023
+774,SPP Wind,2.2,3.4,04/28/2023
+775,CEB Small Hydro,9.6,0.0,04/28/2023
+776,SPP Biomass,3.5,3.5,04/28/2023
+777,SPP Minihydro,37.1,0.0,04/28/2023
+778,Capacitors,0.0,59.9,04/28/2023
+779,Total,2213.4,439.0,04/28/2023
+780,Laxapana Hydro Complex,274.7,6.8,05/02/2023
+781,Mahaweli Hydro Complex,259.7,13.1,05/02/2023
+782,Samanala Hydro Complex,137.4,5.3,05/02/2023
+783,CEB Thermal Coal,810.3,102.4,05/02/2023
+784,CEB Thermal Oil,181.1,62.7,05/02/2023
+785,IPP Thermal Oil,0.0,0.0,05/02/2023
+786,CEB Wind,15.7,-1.9,05/02/2023
+787,SPP Wind,30.9,3.1,05/02/2023
+788,CEB Small Hydro,8.4,0.0,05/02/2023
+789,SPP Biomass,4.2,2.6,05/02/2023
+790,SPP Minihydro,43.4,0.0,05/02/2023
+791,Capacitors,0.0,120.5,05/02/2023
+792,Total,1765.9,314.5,05/02/2023
+793,Laxapana Hydro Complex,188.7,11.8,05/04/2023
+794,Mahaweli Hydro Complex,273.9,21.4,05/04/2023
+795,Samanala Hydro Complex,143.6,7.9,05/04/2023
+796,CEB Thermal Coal,808.4,90.6,05/04/2023
+797,CEB Thermal Oil,348.9,77.2,05/04/2023
+798,IPP Thermal Oil,281.1,5.5,05/04/2023
+799,CEB Wind,21.8,-21.5,05/04/2023
+800,SPP Wind,1.7,3.5,05/04/2023
+801,CEB Small Hydro,1.3,0.0,05/04/2023
+802,SPP Biomass,3.5,2.0,05/04/2023
+803,SPP Minihydro,33.5,0.0,05/04/2023
+804,Capacitors,0.0,80.4,05/04/2023
+805,Total,2106.4,279.0,05/04/2023
+806,Laxapana Hydro Complex,237.3,3.5,05/07/2023
+807,Mahaweli Hydro Complex,337.1,37.3,05/07/2023
+808,Samanala Hydro Complex,195.8,4.8,05/07/2023
+809,CEB Thermal Coal,770.5,128.0,05/07/2023
+810,CEB Thermal Oil,115.1,23.4,05/07/2023
+811,IPP Thermal Oil,0.0,0.0,05/07/2023
+812,CEB Wind,20.9,-36.8,05/07/2023
+813,SPP Wind,20.6,3.2,05/07/2023
+814,CEB Small Hydro,2.9,0.0,05/07/2023
+815,SPP Biomass,10.5,3.2,05/07/2023
+816,SPP Minihydro,11.1,0.0,05/07/2023
+817,Capacitors,0.0,51.4,05/07/2023
+818,Total,1721.8,218.0,05/07/2023
+1,Laxapana Hydro Complex,289.0,18.2,05/09/2023
+2,Mahaweli Hydro Complex,243.2,29.8,05/09/2023
+3,Samanala Hydro Complex,197.6,5.1,05/09/2023
+4,CEB Thermal Coal,801.2,76.5,05/09/2023
+5,CEB Thermal Oil,369.1,120.1,05/09/2023
+6,IPP Thermal Oil,137.3,23.8,05/09/2023
+7,CEB Wind,7.2,3.7,05/09/2023
+8,SPP Wind,2.6,3.8,05/09/2023
+9,CEB Small Hydro,8.5,0.0,05/09/2023
+10,SPP Biomass,8.4,3.8,05/09/2023
+11,SPP Minihydro,9.8,0.0,05/09/2023
+12,Capacitors,0.0,55.2,05/09/2023
+13,Total,2073.9,340.0,05/09/2023

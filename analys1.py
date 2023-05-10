@@ -23,6 +23,7 @@ df_by_date['Non_renuable']=df_by_date['CEB Thermal Coal']+df_by_date['Fuel']
 
 list_of_days=list(df_by_date['date'].sort_values(ascending=False))
 total_dates=len(list_of_days)
+latest_date=list_of_days[0]
 avg_coal=df_by_date['CEB Thermal Coal'].sum()/total_dates
 avg_hydro=df_by_date['Hydro'].sum()/total_dates
 avg_fuel=df_by_date['Fuel'].sum()/total_dates
@@ -31,9 +32,27 @@ avg_solar=df_by_date['SPP Solar 1'].sum()/total_dates
 avg_bio=df_by_date['SPP Biomass'].sum()/total_dates
 avg_total=df_by_date['Total'].sum()/total_dates
 
-with st.sidebar:
-    st.header('CEB Data')
-    with st.container():
+
+    # with st.container():
+    #     all=st.checkbox('Select all')
+    #     if(all):
+    #         option= st.selectbox(
+    #         'Select a date',
+    #         ['All date selected'])
+    #     else:
+    #         option= st.selectbox(
+    #             'Select a date',
+    #             list_of_days)
+    
+    
+
+# st.title('CEB daily Power')
+st.markdown("<h1 style='text-align: center; color: #19376D; font-size:42px'>CEB Power Generation Dashboard</h1>", unsafe_allow_html=True)
+st.write("")
+
+st.write("")
+
+with st.container():
         all=st.checkbox('Select all')
         if(all):
             option= st.selectbox(
@@ -43,15 +62,6 @@ with st.sidebar:
             option= st.selectbox(
                 'Select a date',
                 list_of_days)
-    
-    
-
-st.title('CEB daily Power')
-
-st.write("")
-
-st.write("")
-
 # with st.container():
 #     all=st.checkbox('Select all')
 #     if(all):
@@ -62,18 +72,56 @@ st.write("")
 #         option= st.selectbox(
 #             'Select a date',
 #             list_of_days)
+start_d, end_d = st.select_slider(
+    'Select a range of Dates',
+    options=list_of_days,
+    value=(list_of_days[-1], list_of_days[0]))
+# st.write('You selected wavelengths between', start_color, 'and', end_color)
     
+st.markdown("<h2 style='text-align: left; color:#36454f: ; font-size:16px'>\
+            Power genetation breakdown of  \
+            </h2>", unsafe_allow_html=True)
+st.write("")
 
-col1,col2,col3,col4,col5,col6,col7=st.columns(7)
+
+
+
+# col1.subheader("A wide column with a chart")
+# col1.line_chart(data)
+
+# col2.subheader("A narrow column with the data")
+# col2.write(data)
+# col0=st.columns([2,1])
+col0,col1,col2,col3,col4,col5,col6,col7=st.columns(8)
 with st.container():
     if(all):
-        col1.metric(label='Coal',value=round(avg_coal,2))
-        col2.metric(label='Hydro',value=round(avg_hydro,2))
-        col3.metric(label='Fuel',value=round(avg_fuel,2))
-        col4.metric(label='Wind',value=round(avg_wind,2))
-        col5.metric(label='Sola',value=round(avg_solar,2))
-        col6.metric(label='Biomass',value=round(avg_bio,2))
-        col7.metric(label='Total',value=round(avg_total,2))
+        with col0:
+            st.markdown("<h3 style='text-align: left; color: #36454f; font-size:12px'>Type</h3>", unsafe_allow_html=True)
+            st.markdown("<h3 style='text-align: left; color: #36454f; font-size:12px'>Power MW</h3>", unsafe_allow_html=True)
+        col1.metric(label='Coal',value=round(avg_coal,1))
+        col2.metric(label='Hydro',value=round(avg_hydro,1))
+        col3.metric(label='Fuel',value=round(avg_fuel,1))
+        col4.metric(label='Wind',value=round(avg_wind,1))
+        col5.metric(label='Sola',value=round(avg_solar,1))
+        col6.metric(label='Biomass',value=round(avg_bio,1))
+        col7.metric(label='Total',value=round(avg_total,1))
+
+        coal_selected=float(df_by_date[df_by_date['date']==latest_date]['CEB Thermal Coal'])
+        hydro_selected=float(df_by_date[df_by_date['date']==latest_date]['Hydro'])
+        fuel_selected=float(df_by_date[df_by_date['date']==latest_date]['Fuel'])
+        wind_selected=float(df_by_date[df_by_date['date']==latest_date]['Wind'])
+        solar_selected=float(df_by_date[df_by_date['date']==latest_date]['SPP Solar 1'])
+        bio_selected=float(df_by_date[df_by_date['date']==latest_date]['SPP Biomass'])
+        total_selected=float(df_by_date[df_by_date['date']==latest_date]['Total'])
+
+        date_index=list_of_days.index(latest_date)
+        privious_coal=float(df_by_date[df_by_date['date']==list_of_days[date_index-1]]['CEB Thermal Coal'])
+        privious_hydro=float(df_by_date[df_by_date['date']==list_of_days[date_index-1]]['Hydro'])
+        privious_fuel=float(df_by_date[df_by_date['date']==list_of_days[date_index-1]]['Fuel'])
+        privious_wind=float(df_by_date[df_by_date['date']==list_of_days[date_index-1]]['Wind'])
+        privious_solar=float(df_by_date[df_by_date['date']==list_of_days[date_index-1]]['SPP Solar 1'])
+        privious_bio=float(df_by_date[df_by_date['date']==list_of_days[date_index-1]]['SPP Biomass'])
+        privious_total=float(df_by_date[df_by_date['date']==list_of_days[date_index-1]]['Total'])
 
 
     else:
@@ -103,13 +151,51 @@ with st.container():
             privious_bio=bio_selected
             privious_total=total_selected
 
-        col1.metric(label='Coal',value=df_by_date[df_by_date['date']==option]['CEB Thermal Coal'],delta=str(round(coal_selected-privious_coal,2)))
-        col2.metric(label='Hydro',value=df_by_date[df_by_date['date']==option]['Hydro'],delta=str(round(hydro_selected-privious_hydro,2)))
-        col3.metric(label='Fuel',value=df_by_date[df_by_date['date']==option]['Fuel'],delta=str(round(fuel_selected-privious_fuel,2)))
-        col4.metric(label='Wind',value=df_by_date[df_by_date['date']==option]['Wind'],delta=str(round(wind_selected-privious_wind,2)))
-        col5.metric(label='Solar',value=df_by_date[df_by_date['date']==option]['SPP Solar 1'],delta=str(round(solar_selected-privious_solar,2)))
-        col6.metric(label='Bio',value=df_by_date[df_by_date['date']==option]['SPP Biomass'],delta=str(round(bio_selected-privious_bio,2)))
-        col7.metric(label='Total',value=df_by_date[df_by_date['date']==option]['Total'],delta=str(round(total_selected-privious_total,2)))
+        with col0:
+            st.markdown("<h3 style='text-align: left; color: #36454f; font-size:10px'>Type <br><br> \
+                        Power MW <br><br> \
+                        % of Power Differenc over previousday</h3>", unsafe_allow_html=True)
+            # st.markdown("<h3 style='text-align: left; color: #36454f; font-size:10px'>Power MW</h3>", unsafe_allow_html=True)
+            # st.markdown("<h3 style='text-align: left; color: #36454f; font-size:10px'>% of Power Change over yesterday</h3>", unsafe_allow_html=True)
+        col1.metric(label='Coal',value=round(df_by_date[df_by_date['date']==option]['CEB Thermal Coal'],1),delta=str(round(coal_selected-privious_coal,2)))
+        col2.metric(label='Hydro',value=round(df_by_date[df_by_date['date']==option]['Hydro'],1),delta=str(round(hydro_selected-privious_hydro,2)))
+        col3.metric(label='Fuel',value=round(df_by_date[df_by_date['date']==option]['Fuel'],1),delta=str(round(fuel_selected-privious_fuel,2)))
+        col4.metric(label='Wind',value=round(df_by_date[df_by_date['date']==option]['Wind'],1),delta=str(round(wind_selected-privious_wind,2)))
+        col5.metric(label='Solar',value=round(df_by_date[df_by_date['date']==option]['SPP Solar 1'],1),delta=str(round(solar_selected-privious_solar,2)))
+        col6.metric(label='Bio',value=round(df_by_date[df_by_date['date']==option]['SPP Biomass'],1),delta=str(round(bio_selected-privious_bio,2)))
+        col7.metric(label='Total',value=round(df_by_date[df_by_date['date']==option]['Total'],1),delta=str(round(total_selected-privious_total,2)))
+
+
+
+# st.markdown(
+#     """
+# <style>
+# [class="css-1xarl3l e16fv1kl2"] {
+#     text-align: center;
+#     font-size: 30px;
+# }
+# </style>
+# """,
+#     unsafe_allow_html=True,
+# )
+
+
+with st.sidebar:
+    st.header('Last Captured Data on {}'.format(latest_date))
+    st.write('')
+    col21,col22,col23=st.columns(3)
+    col21.metric(label='Coal',value=round(df_by_date[df_by_date['date']==latest_date]['CEB Thermal Coal'],1),delta=str(round(coal_selected-privious_coal,2)))
+    col22.metric(label='Hydro',value=round(df_by_date[df_by_date['date']==latest_date]['Hydro'],1),delta=str(round(hydro_selected-privious_hydro,2)))
+    col23.metric(label='Fuel',value=round(df_by_date[df_by_date['date']==latest_date]['Fuel'],1),delta=str(round(fuel_selected-privious_fuel,2)))
+    col31,col32,col33=st.columns(3)
+    col31.metric(label='Wind',value=round(df_by_date[df_by_date['date']==latest_date]['Wind'],1),delta=str(round(wind_selected-privious_wind,2)))
+    col32.metric(label='Solar',value=round(df_by_date[df_by_date['date']==latest_date]['SPP Solar 1'],1),delta=str(round(solar_selected-privious_solar,2)))
+    col33.metric(label='Bio',value=round(df_by_date[df_by_date['date']==latest_date]['SPP Biomass'],1),delta=str(round(bio_selected-privious_bio,2)))
+    
+    col34,col35,col36=st.columns(3)
+    col34.write('')
+    col35.metric(label='Total',value=round(df_by_date[df_by_date['date']==latest_date]['Total'],1),delta=str(round(total_selected-privious_total,2)))
+    col36.write('')
 
 # Make the presentage bubble graphs of renuable and other enery types
 st.write('')
@@ -333,7 +419,7 @@ with st.container():
     col8.pyplot(fig7)
     col9.pyplot(fig8)
 
-st.write('Split Level - {}'.format(df_pond_selected['Split level'].tolist()[0]))
+# st.write('Split Level - {}'.format(df_pond_selected['Split level'].tolist()[0]))
 
-
+# st.markdown("<h1 style='text-align: center; color: #19376D; font-size:36px'>Odel Woman Dress Market Analys</h1>", unsafe_allow_html=True)
 
